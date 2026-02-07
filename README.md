@@ -13,19 +13,20 @@ uses STM's VL53L1X ULD driver. The original example can be obtained by downloadi
 
 
 # Sensor pinout
-![Pololu](pololu-pinout.jpg)
+<img src="pololu-pinout.jpg" alt="Pololu" width="300" height="200">
 
 # EV3 Cable pinout
 My sensor had this cable. I had to tear it apart to connect it to the NUCLEO board.
 ![ev3](ev3-cable.png)
+
 
 # How to use it ? 
 
 In order to make the program work, you must do the following :
  - Open STM32CubeIDE toolchain
  - Rebuild all files and load your image into target memory
- - Open an Tera Term session
- - Select the right COM port
+ - Open an Tera Term session (On Linux, `minicom` or `picocom`)
+ - Select the right COM port (Linux: `minicom --device /dev/ttyACM0` or _ttyUSB0_)
  - Reset Nucleo board
  - Observe the distance measured on the Tera Term.
  - Full description in Documentation directory
