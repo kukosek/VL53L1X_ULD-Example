@@ -13,7 +13,7 @@ uses STM's VL53L1X ULD driver. The original example can be obtained by downloadi
 
 
 # Sensor pinout
-<img src="pololu-pinout.jpg" alt="Pololu" width="300" height="200">
+<img src="pololu-pinout.jpg" alt="Pololu" width="300">
 
 # EV3 Cable pinout
 My sensor had this cable. I had to tear it apart to connect it to the NUCLEO board.
